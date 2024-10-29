@@ -119,7 +119,7 @@ Vậy còn ```run```, làm thế nào để có thể gọi function này. Ở n
 
 Bây giờ có thể tiến hành tạo payload để có thể RCE và giải cứu công chúa.
 
-Chọn chuột phải vào thư mục ```src```, chọn ```New File...``` và tạo 1 file mới có tên ```payload.php```, tệp này sẽ giúp chúng ta tạo payload.
+Chọn chuột phải vào thư mục ```src```, chọn ```New File...``` và tạo 1 file mới có tên ```payload.php```, file này sẽ giúp chúng ta tạo payload.
 Sau đó, copy toàn bộ code của Class ```Caculator``` vào tệp ```payload.php``` và làm theo các bước bên dưới.
 
 <img width="911" alt="Ảnh chụp Màn hình 2024-10-28 lúc 14 15 41" src="https://github.com/user-attachments/assets/744111d4-fedf-4657-a283-5801eb910ebd">
