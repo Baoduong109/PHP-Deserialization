@@ -81,6 +81,8 @@ Vậy có cách nào để đánh thắng con Boss này không?
 
 Tất nhiên là có, ngoài thay đổi thuộc tính thì ta có thể thay đổi luôn Class của Object. Vậy mình sẽ tìm 1 Class nào đó có trong này để có thể đánh bại được con Boss này. Sau khi tìm kiếm thì mình thấy 1 Class trong file ```trainer.php``` là ```TrumCuoi``` được kế thừa từ Class ```Trainer```.
 
+<img width="1180" alt="Ảnh chụp Màn hình 2024-10-28 lúc 14 07 54" src="https://github.com/user-attachments/assets/885e5a58-dce2-4782-bb72-b8fbf914b312">
+
 Truy cập vào file ```pokemon.sav``` và thay đổi Class ```Trainer``` thành ```TrumCuoi``` và thay đổi luôn số kí tự ở trước Class thành ```8```.
 
 Payload sẽ là:
@@ -115,7 +117,7 @@ Vậy còn ```run```, làm thế nào để có thể gọi function này. Ở n
 
 <img width="179" alt="Ảnh chụp Màn hình 2024-10-28 lúc 19 37 11" src="https://github.com/user-attachments/assets/afa0a6d5-749f-480d-8499-9c952d6bf792">
 
-Bây giờ có thể tiến hành tạo payload để có thể RCE để giải cứu công chúa.
+Bây giờ có thể tiến hành tạo payload để có thể RCE và giải cứu công chúa.
 
 Chọn chuột phải vào thư mục ```src```, chọn ```New File...``` và tạo 1 file mới có tên ```payload.php```, tệp này sẽ giúp chúng ta tạo payload.
 Sau đó, copy toàn bộ code của Class ```Caculator``` vào tệp ```payload.php``` và làm theo các bước bên dưới.
